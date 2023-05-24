@@ -1,0 +1,147 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 20px;
+    margin: 5px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu1 {
+    list-style: none;
+    display: flex;
+}
+
+.menu2 {
+    list-style: none;
+    display: flex;
+}
+
+#space{
+    font-family:Arial;
+    font-weight:lighter;
+}
+
+.item {
+    padding: 20px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+
+#Linhas {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+#tit{
+    font-family:Arial;
+    margin-left:150px;
+    font-weight:lighter
+}
+
+#subt{
+    font-family:Arial;
+    font-weight:lighter;
+    margin-left:150px;
+    opacity:0.5;
+}
+
+.texto{
+    font-family:Arial;
+    font-weight:lighter;
+    opacity:0.5;
+    margin-left:150px;
+    line-height:22px;
+    font-size:20px;
+}
+
+#imagem {
+    position: absolute;
+    left: 950px;
+    top: 350px;
+    border-radius: 400px 400px 0 0;
+    overflow: hidden;
+    width:40%;
+}
+
+.menu li{
+    display:inline-block;
+    margin-right:5px;
+    padding: 100px
+}
+
+.text2{
+    position:relative;
+    bottom:50px;
+    left:140px;
+
+
+
+    font-family:Arial;
+    font-weight:lighter;
+    opacity:0.7
+}
+
+.itens{
+    list-style:none
+}
+
+.itens li::before {
+    content: "- ";
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(255,69,0);
+    background: linear-gradient(0deg, rgba(255,69,0,1) 0%, rgba(9,9,121,0) 100%);
+}
+
+
+.listas {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    align-items: start;
+    font-weight:lighter;
+}
+
+    .listas h3 {
+        opacity: 0.5;
+    }
+
+
+.listas ul {
+    flex-direction: column;
+    display: flex;
+}
+
+.listas ul h2 {
+    font-family: Arial;
+    color: orangered;
+    font-weight: lighter;
+}
+
+.listas ul h3 {
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+.icones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+    height: 100px;
+}
